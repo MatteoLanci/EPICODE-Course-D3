@@ -372,3 +372,13 @@ footer .logo img {
     width: 130px;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .small-img-grid .small-img {
+    width: 280px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px;
+    transition: all 0.2s;
+  }
+}
