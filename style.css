@@ -115,6 +115,7 @@ main img {
 .gift-wrapper {
   position: relative;
   text-align: center;
+  cursor: pointer;
 }
 
 .img-wrapper img {
@@ -340,6 +341,11 @@ footer .logo img {
   footer .logo img {
     width: 130px;
   }
+
+  .wrapper-img:hover .hover {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 820px) {
@@ -404,6 +410,11 @@ footer .logo img {
 
   footer .logo img {
     width: 130px;
+  }
+
+  .wrapper-img:hover .hover {
+    visibility: hidden;
+    opacity: 0;
   }
 }
 
